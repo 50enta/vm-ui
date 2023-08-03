@@ -1,0 +1,135 @@
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+     /*CSS DO RADIO BUTTON*/
+     .radio {
+          display: flex;
+     }
+
+     /*CSS DOS INPUTS E SELECT*/
+     .container {
+          text-transform: capitalize;
+          display: grid;
+          grid-template-columns: 20% 80%;
+          align-items: center;
+     }
+
+     .containerWithoutLabel {
+          text-transform: capitalize;
+          align-items: center;
+          display: grid;
+     }
+
+     .label {
+          margin-bottom: 0.5%;
+          text-align:center;
+     }
+
+     /*CSS DOS INPUTS*/
+     .input {
+          margin-bottom: 1%;
+          height: 70%;
+          width: 100%;
+     }
+
+     .input:valid{
+          background-color: rgb(179, 255, 0);
+     }
+
+     /*CSS DOS SELECTS*/
+     .component>p{
+          text-align: center;
+     }
+
+     .select {
+          margin-bottom: 1%;
+          width: 100%;
+     }
+}
+
+/*TABLET*/
+@media screen and (min-width:767px) and (max-width:1024px) {
+     /*CSS DO RADIO BUTTON*/
+     .radio {
+          display: flex;
+     }
+
+     /*CSS DOS INPUTS E SELECT*/
+     .container {
+          text-transform: capitalize;
+          display: grid;
+          grid-template-columns: 20% 80%;
+          align-items: center;
+     }
+
+     .containerWithoutLabel {
+          text-transform: capitalize;
+          align-items: center;
+     }
+
+     .label {
+          /* text-align:right; */
+          margin-bottom: 0.5%;
+     }
+
+     /*CSS DOS INPUTS*/
+     .input {
+          margin-bottom: 1%;
+          height: 45px;
+          width: 100%;
+     }
+
+     /*CSS DOS SELECTS*/
+     .component>p{
+          text-align: center;
+     }
+
+     .select {
+          margin-bottom: 1%;
+          height: 100%;
+          width: 100%;
+     }
+}
+
+/*MOBILE*/
+@media screen and (max-width:767px) {
+     /*CSS DO RADIO BUTTON*/
+     .radio {
+          display: flex;
+     }
+
+     /*CSS DOS INPUTS E SELECT*/
+     .container {
+          text-transform: capitalize;
+          display: grid;
+          grid-template-columns: 20% 80%;
+          align-items: center;
+     }
+
+     .containerWithoutLabel {
+          text-transform: capitalize;
+          align-items: center;
+     }
+
+     .label {
+          /* text-align:right; */
+          margin-bottom: 0.5%;
+     }
+
+     /*CSS DOS INPUTS*/
+     .input {
+          margin-bottom: 1%;
+          height: 44px;
+          width: 100%;
+     }
+
+     /*CSS DOS SELECTS*/
+     .component>p{
+          text-align: center;
+     }
+
+     .select {
+          margin-bottom: 1%;
+          height: 70%;
+          width: 100%;
+     }
+}

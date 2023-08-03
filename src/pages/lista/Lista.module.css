@@ -1,0 +1,56 @@
+/*DESKTOP*/
+@media screen and (min-width:1024px) {
+    .container{
+        display: flex;
+        place-content: center;
+        text-transform: capitalize;
+        flex-direction: column;
+    }
+
+    .container > div {
+        width: 95%;
+    }
+
+    .options {
+        display: flex;
+        place-content: center;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .container{
+        display: flex;
+        place-content: center;
+        text-transform: capitalize;
+    }
+
+    .container > div {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .options {
+        display: flex;
+        place-content: center;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width:767px) {
+    .container{
+        display: flex;
+        place-content: center;
+        text-transform: capitalize;
+    }
+
+    .container > div {
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .options {
+        display: flex;
+        place-content: center;
+    }
+}

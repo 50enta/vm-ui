@@ -1,0 +1,154 @@
+.closeIConn {
+    display: flex;
+    justify-content: flex-end;
+    color: #4769a3;
+    font-weight: 400;
+}
+
+.sidebarClosed {
+    transform: translateX(-100vw);
+    transition: 1.0s ;
+    background-color: #5C80BC;
+    height: 100vh;
+}
+
+@media screen and (min-width:1024px) {
+    .sidebar {
+        margin: 0;
+        height: 100vh;
+        font-size: 20px;
+        background-color: #5C80BC;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+        transition: 0.8s ;
+    }
+
+    .sidebar .item  {
+        color: white;
+        cursor: pointer;
+        display: flex;
+        height: 60px;
+        margin-left: -20%;
+        padding-left: 15%;
+        flex-direction: row;
+        align-items: center;
+        transition: all .8s;
+    }
+
+    .sidebar .itemClicado {
+        color: #374A67;
+        background-color: rgba(255, 255, 255, 0.655);
+        width: 93%;
+        cursor: pointer;
+        display: flex;
+        height: 55px;
+        padding-left: 3%;
+        margin-left: -20px;
+        flex-direction: row;
+        align-items: center;
+        transition: all .8s;
+        border-radius: 5px;
+    }
+
+    .item:hover,
+    .itemClicado:hover {
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+        width: 93%;
+        padding-left: 2%;
+        margin-left: -3px;
+    }
+
+    .icon {
+        margin-right: 10%;
+    }
+
+}
+
+/*TABLET*/
+@media screen and (min-width:767px) and (max-width:1024px) {
+    .sidebar {
+        margin: 0;
+        height: 100vh;
+        font-size: 17px;
+        background-color: #00559A;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar .item {
+        color: white;
+        padding-left: 20%;
+        cursor: pointer;
+        transition: all 1.0s;
+        display: flex;
+        flex-direction: row;
+        max-height: 30%;
+        margin-left: -20%;
+        align-items: center;
+    }
+
+    .sidebar .itemClicado {
+        color: #00559A;
+        background-color: white;
+        padding-left: 15%;
+        cursor: pointer;
+        transition: all 1.0s;
+        display: flex;
+        flex-direction: row;
+        max-height: 30%;
+        margin-left: -20%;
+        align-items: center;
+    }
+
+    .item:hover,
+    .itemClicado:hover {
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon {
+        margin-right: 10%;
+    }
+
+}
+
+/*MOBILE*/
+@media screen and (max-width:767px) {
+    .sidebar {
+        bottom: 0px;
+        margin: 0;
+        height: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        width: 100%;
+        position: absolute;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #00559A;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar .item {
+        color: white;
+        cursor: pointer;
+        margin: 0;
+    }
+
+    .sidebar .itemClicado {
+        color: #000;
+        ;
+        cursor: pointer;
+    }
+
+    .item,
+    .itemClicado {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .item:hover,
+    .itemClicado:hover {
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    li p {
+        display: none;
+    }
+}

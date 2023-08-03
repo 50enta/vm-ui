@@ -1,0 +1,8 @@
+.iconDiv {
+    width: 100%;
+    cursor: pointer;
+}
+
+.iconDiv:hover {
+    background-color: #eee;
+}
