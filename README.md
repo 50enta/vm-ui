@@ -46,4 +46,6 @@ Filtering by country:
 
 ![Main Page](assets/main2.png)
 
+> GDP and Population are provided values corresponding to last updated year. 
+
 I've also included the `build` folder as `demo` on repository root path.
