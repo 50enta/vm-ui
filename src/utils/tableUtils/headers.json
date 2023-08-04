@@ -1,66 +1,26 @@
 [
-    {
-        "key": "Code",
-        "value": "code"
-    },
-    {
-        "key": "Country",
-        "value": "country"
-    },
-    {
-        "key": "Population",
-        "value": "population"
-    },
-    {
-        "key": "gdp",
-        "value": "gdp"
-    },
-    {
-        "key": "Weather",
-        "value": "weather"
-    },
-    {
-        "key": "Exchange",
-        "value": "exchange"
-    },
-    {
-        "key": "Upstream",
-        "value": "upstream"
-    },
-    {
-        "key": "Url",
-        "value": "url"
-    },
-    {
-        "key": "Nome",
-        "value": "name"
-    },
-    {
-        "key": "Apelido",
-        "value": "apelido"
-    },
-    {
-        "key": "Acesso",
-        "value": "acesso"
-    },
-    {
-        "key": "Container",
-        "value": "containerName"
-    },
-    {
-        "key": "Servidor",
-        "value": "serverName"
-    },
-    {
-        "key": "Estado",
-        "value": "estado"
-    },
-    {
-        "key": "Ocorrencias",
-        "value": "totalOcorrencias"
-    },
-    {
-        "key": "Aplicacao",
-        "value": "appName"
-    }
+  {
+    "key": "Code",
+    "value": "code"
+  },
+  {
+    "key": "Country",
+    "value": "country"
+  },
+  {
+    "key": "Population",
+    "value": "population"
+  },
+  {
+    "key": "GDP",
+    "value": "gdp"
+  },
+  {
+    "key": "Weather",
+    "value": "weather"
+  },
+  {
+    "key": "Exchange",
+    "value": "exchange"
+  }
 ]

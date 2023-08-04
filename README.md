@@ -34,6 +34,13 @@ Note:
 Authentication Page
 ![Login Page](assets/login.png)
 
+Weather information on button, right side.
+
 ## Main Page (Home)
 
+By default get values for all countries.
 ![Main Page](assets/main.png)
+
+Filtering by country:
+
+![Main Page](assets/main2.png)
