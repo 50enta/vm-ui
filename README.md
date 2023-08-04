@@ -1,9 +1,10 @@
-# vm-ui
+## Overview
+The project is a Web Application developed for travellers in order to allow tourist get useful information quicky as possivel about the weather, exchanges rates, GDP and population for destination they want to travell for.
+The UI was developed using ReactJS and the API using Laravel.
 
 # Requirements
 - API running [Click here](https://github.com/50enta/vm-api.git) for more details
 - NodJS 
--
  
 ## Setting up the app
 1. Clone project repository:
