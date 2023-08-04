@@ -62,12 +62,6 @@ function GenericFields(props) {
           key={key}
           label={label}
           selected={selected}
-          dados={[
-            { key: "Angola", nome: "Angola" },
-            { key: "Mozambique", nome: "Mozambique" },
-            { key: "Albania", nome: "Albania" },
-            // { key: "Kek4", nome: "Kek4" },
-          ]}
         />
       );
 

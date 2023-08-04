@@ -3,7 +3,6 @@ import { GetParams } from "./getFetchParams";
 import { OrganizeTable } from "../../utils/tableUtils/getTableHeaders";
 
 export function GeneralFetch() {
-  //https://apps.hisplp.org/onitapi/api/
   let baseURL = "http://localhost:8000/api/";
   const [data, setData] = useState([]);
   const { tableHeadersAndData } = OrganizeTable({ setData });

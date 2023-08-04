@@ -121,13 +121,17 @@ export default function BasicTable({ data, selected }) {
 
   useEffect(() => {
     let filtered = [];
-    data?.dados?.map((val) => {
-      if (val.country == selected) {
-        filtered.push(val);
-      }
-    });
-    
-    if(filtered.length>0) setCopy(filtered);
+    if (selected == "all") {
+      setCopy(data.dados);
+    } else {
+      data?.dados?.map((val) => {
+        if (val.country == selected) {
+          filtered.push(val);
+        }
+      });
+
+      if (filtered.length > 0) setCopy(filtered);
+    }
   }, [selected]);
 
   const handleChangeRowsPerPage = (event) => {

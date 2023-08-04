@@ -9,7 +9,6 @@ import React from "react";
 export default function Login() {
   const [formData, setFormData] = useState({})
   const navigate = useNavigate();
-  const [senhas, setSenhas] = useState(false)
 
   const onChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -65,6 +64,9 @@ export default function Login() {
           </span>
         </div>
       </div>
+      <a className="redirect" href='http://localhost:8000/api/weathers/USA' target='_blank' >
+          View weather info
+        </a>
     </div>
   );
 }

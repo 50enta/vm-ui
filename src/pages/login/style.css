@@ -11,6 +11,19 @@
   height: 100vh;
 }
 
+.redirect{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 50px ;
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
 .screen-1 {
   background: #f1f7fe;
   padding: 2em;

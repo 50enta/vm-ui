@@ -21,11 +21,11 @@ By running `npm install` is enough to ensure dependencies will be installed, but
 ```
 npm start
 ```
-The project will be running on 3000 port: `http://localhost:3000`
+The project will be running on port 3000: `http://localhost:3000`
 
 
 Note:
-> Didn't create .env file, the endpoint, token, etc to connect with API are managed on the code as well.
+> Didn't create .env file, the base url, token, etc to connect with API are managed on the code as well.
 >> Also to make the authentication proccess easy, on login page validation are disabled. Just click login button and it will work.
 
 
@@ -36,4 +36,4 @@ Authentication Page
 
 ## Main Page (Home)
 
-![Login Page](assets/main.png)
+![Main Page](assets/main.png)

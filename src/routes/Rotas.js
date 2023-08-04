@@ -15,7 +15,6 @@ const Rotas = () => (
       <Route exact path="/" element={<Login />} />
       <Route element={<MainLayout />} path="/dashboard">
         <Route element={<Lista />} path="home" />
-        <Route element={<Registo />} path="registo" />
         </Route>
       <Route element={<NotFound />} path="*" />
     </Routes>
