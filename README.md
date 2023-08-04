@@ -1,17 +1,21 @@
 # vm-ui
 
-
+# Requirements
+- API running [Click here](https://github.com/50enta/vm-api.git) for more details
+- NodJS 
+-
+ 
 ## Setting up the app
 1. Clone project repository:
 ```
-git clone https://github.com/50enta/vm-ui.git
+git clone https://github.com/50enta/vm-ui.git -b main
 ```
 
 2. Install dependencies
 ```
 npm install --force
 ```
-By running `npm install` is enough to ensure dependencies will be installed, but just to make sure i added `--force` arguments.
+By running `npm install` is enough to ensure dependencies will be installed, but just to make sure I included `--force` arguments (depending on your node/npm version).
 
 3. Execute project on development mode
 ```
@@ -28,8 +32,8 @@ Note:
 ## Application Workflow
 
 Authentication Page
-[Login Page]
+![Login Page](assets/login.png)
 
 ## Main Page (Home)
 
-[Main Page]
+![Login Page](assets/main.png)

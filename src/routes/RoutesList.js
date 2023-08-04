@@ -11,14 +11,15 @@ const routesList = [
         access: 'admin',
         icon: <FormatListBulletedOutlined />,
         Component: <Lista />
-    },
-    {
-        label: "Settings",
-        path: "registo",
-        access: 'admin',
-        icon: <CreateOutlined />,
-        Component: <Registo />
-    },
+    }
+    // ,
+    // {
+    //     label: "Settings",
+    //     path: "registo",
+    //     access: 'admin',
+    //     icon: <CreateOutlined />,
+    //     Component: <Registo />
+    // },
 ]
 
 export function routes() {
