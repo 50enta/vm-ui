@@ -44,3 +44,5 @@ By default get values for all countries.
 Filtering by country:
 
 ![Main Page](assets/main2.png)
+
+I've also included the `build` folder as `demo` on repository root path.

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0274762b.css",
+    "main.js": "./static/js/main.837eb4af.js",
+    "static/media/onitLogo.svg": "./static/media/onitLogo.7df88ac9208798cedd167afcd0477368.svg",
+    "static/media/logoBlack.svg": "./static/media/logoBlack.5de84af595ce30efcda307acdd83d6b4.svg",
+    "index.html": "./index.html",
+    "main.0274762b.css.map": "./static/css/main.0274762b.css.map",
+    "main.837eb4af.js.map": "./static/js/main.837eb4af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0274762b.css",
+    "static/js/main.837eb4af.js"
+  ]
+}
